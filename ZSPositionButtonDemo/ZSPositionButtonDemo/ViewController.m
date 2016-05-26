@@ -44,7 +44,7 @@
     [button setTitle:title forState:UIControlStateNormal];
     [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     button.titleLabel.font = [UIFont systemFontOfSize:fontSize];
-    button.positionType = positionType;
+    button.positionType = positionType;//位置属性
 //    [button sizeToFit];
     [self.view addSubview:button];
 }

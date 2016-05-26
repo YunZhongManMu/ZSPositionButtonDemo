@@ -19,6 +19,14 @@ typedef NS_ENUM(NSInteger, ZSPositionType) {
     ZSPositionTypeBottom,                //文本在下，图标在上(居中)
 };
 
+
+typedef NS_ENUM(NSInteger, ZSAlignType) {
+    ZSAlignTypeCenter = 0,          //居中对齐
+    ZSAlignTypeLeft,                      //左对齐
+    ZSAlignTypeRight                    //右对齐
+};
+
+
 @interface ZSPositionButton : UIButton
 
 /** 位置类型 */
